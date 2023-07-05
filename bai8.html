@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h2>
+            Thông tin đăng ký
+        </h2>
+        <table>
+            <tr>
+                <td>
+                    Họ và Tên
+                </td>
+                <td>
+                    <input type="text" name="user" id="user" value="Nguyễn Phượng Hoàng">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tên đăng nhập
+                </td>
+                <td>
+                    <input type="text" name="userName" id="userName" value="nphoang">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mật khẩu
+                </td>
+                <td>
+                    <input type="password" name="pass" id="pass" value="nphoang">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Giới tính
+                </td>
+                <td>
+                    <input type="radio" name="gtNam" id="gtNam" value="Nam" checked>
+                    <input type="radio" name="gtNu" id="gtNu" value="Nữ">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="4">
+                    Ngôn ngữ lập trình
+                </td>
+                <td>
+                    <input type="checkbox" name="nn" id="nn1" checked>Ngôn ngữ C#
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="nn" id="nn2">Ngôn ngữ Java
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="nn" id="nn3" checked>Ngôn ngữ PHP
+                </td>
+            </tr>
+            <tr>
+                <td>                    
+                    <input type="checkbox" name="nn" id="nn4">Ngôn ngữ khác
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Tỉnh thành
+                </td>
+                <td>
+                    <select name="tinhThanh" id="tinhThanh">
+                        <option value="">Hà Nội</option>
+                        <option value="1">TP.HCM</option>
+                        <option value="2">Hạ Long</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    <input type="submit" name="submit" id="submit" value="Đăng ký">
+                    <input type="reset" name="reset" id="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
